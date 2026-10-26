@@ -1,0 +1,51 @@
+:root {
+  /* Primitive */
+  --brown: #302c25;
+  --light-brown: #6e6759;
+  --muted-brown: #8b8272;
+
+  --ivory: #f1ebdd;
+  --ivory-bright: #f8f4ea;
+  --offwhite: #e8e0cf;
+  --offwhite-2: #ede5d5;
+
+  --green: #34483a;
+  --green-deep: #26382c;
+  --green-light: #dce3d8;
+
+  --gold: #b39a62;
+  --gold-light: #e5d8b7;
+
+  --brown-earth: #493b30;
+  --brown-leather: #79614a;
+
+  --beige-light: #d6ccb9;
+  --beige-deep: #b7aa92;
+
+  --green-rich: #252d27;
+  --green-darkest: #313b32;
+  --yellow-light: #ede5d5;
+
+  /* Contextual */
+  --site-background-color: var(--ivory);
+  --site-bg-color-secondary: var(--offwhite);
+  --surface-color: var(--ivory-bright);
+  --surface-color-hover: var(--offwhite-2);
+
+  --site-text-color: var(--brown);
+  --site-text-color-secondary: var(--light-brown);
+  --site-text-color-muted: var(--muted-brown);
+
+  --color-heading: var(--green);
+  --color-subheading: var(--beige-deep);
+
+  --color-primary-btn: var(--green);
+  --color-primary-btn-hover: var(--green-deep);
+  --color-text-btn: var(--beige-light);
+
+  --color-border: var(--beige-light);
+  --color-border-strong: var(--beige-deep);
+
+  --color-accent: var(--gold);
+  --color-accent-soft: var(--gold-light);
+}

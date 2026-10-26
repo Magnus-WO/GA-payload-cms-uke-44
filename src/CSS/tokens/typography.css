@@ -1,0 +1,19 @@
+:root {
+  /* Primitiv */
+  --sans-serif-font-family: system-ui, sans-serif;
+
+  --root-font-size: 16px;
+
+  --line-height-text: 1.5;
+  --lin-height-headings: 1.1;
+  --root-line-height: var(--line-height-text);
+
+  /* Kontesktuell */
+  --site-font-family: var(--sans-serif-font-family);
+
+  --site-font-h1: calc(var(--root-font-size) * 2);
+  --site-font-h2: calc(var(--root-font-size) * 1.7);
+  --site-font-h3: calc(var(--root-font-size) * 1.4);
+
+  --site-font-size-text: calc(var(--root-font-size) * 1);
+}

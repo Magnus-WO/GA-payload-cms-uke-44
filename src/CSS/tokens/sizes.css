@@ -1,0 +1,5 @@
+:root {
+  --container-small-max-inline-size: 640px;
+  --container-medium-max-inline-size: 960px;
+  --container-large-max-inline-size: 1260px;
+}
