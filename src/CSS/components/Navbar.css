@@ -1,0 +1,13 @@
+.Navbar {
+  padding: var(--spacing-m) var(--spacing-l);
+  margin-bottom: var(--spacing-l);
+  border-bottom: 2px dotted var(--color-border-strong);
+  display: flex;
+  gap: var(--spacing-m);
+
+  a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--color-accent);
+  }
+}

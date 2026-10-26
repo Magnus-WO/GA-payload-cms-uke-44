@@ -9,6 +9,8 @@ import { migrations } from "./migrations";
 import { Users } from "./collections/Users";
 import { Media } from "./collections/Media";
 import { Books } from "./collections/Books";
+import { Genres } from "./collections/Genres";
+import { Authors } from "./collections/Authors";
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
@@ -18,7 +20,7 @@ const dirname = path.dirname(filename);
  * Legg innholdssamlinger inn i dette arrayet for å inkludere dem.
  */
 
-const collections: CollectionConfig[] = [Users, Media, Books];
+const collections: CollectionConfig[] = [Users, Media, Books, Genres, Authors];
 
 /**
  * Blokker

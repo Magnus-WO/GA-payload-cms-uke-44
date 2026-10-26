@@ -1,0 +1,26 @@
+.Button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: calc(var(--spacing-m) * 0.8) var(--spacing-m);
+  border: 1px solid transparent;
+  border-radius: var(--spacing-xs);
+
+  color: var(--ivory-bright);
+  background-color: var(--color-primary-btn);
+
+  font: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 180ms ease;
+}
+
+.Button:hover {
+  background-color: var(--color-primary-btn-hover);
+}
+
+.Button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
